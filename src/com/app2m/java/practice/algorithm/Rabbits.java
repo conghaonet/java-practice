@@ -13,7 +13,7 @@ package com.app2m.java.practice.algorithm;
  */
 public class Rabbits {
 	public static void main(String[] args) {
-		int months = 48;
+		int months = 12;
 		long time = System.currentTimeMillis();
 		
 		System.out.println(count(months));
@@ -29,12 +29,12 @@ public class Rabbits {
 	 * @param months 持续月数
 	 * @return 最后一月一共有多少只兔子
 	 */
-	public static int count(int month) {
+	public static int count(int months) {
 //		System.out.println(month);
-		if(month <= 0) return month;
-		else if(month == 1) return 1; //第一月份的兔子数
-		else if(month == 2) return 1; //第二月份的兔子数  
-		else return count(month - 1) + count(month - 2);
+		if(months <= 0) return months;
+		else if(months == 1) return 1; //第一月份的兔子数
+		else if(months == 2) return 1; //第二月份的兔子数
+		else return count(months - 1) + count(months - 2);
 	}
 	
 	/**
@@ -42,13 +42,13 @@ public class Rabbits {
 	 * @param months 持续月数
 	 * @return 最后一月一共有多少只兔子
 	 */
-	public static int countB(int month) {
-		int R[] = new int[month];  //每月的兔子数
+	public static int countB(int months) {
+		int R[] = new int[months];  //每月的兔子数
 	    R[0] = 1;  //第一月份的兔子数  
 	    R[1] = 1;  //第二月份的兔子数  
-	    for (int a = 2 ; a < month; a++) {
+	    for (int a = 2 ; a < months; a++) {
 	        R[a] = R[a-1] + R[a-2];
 	    }
-	    return R[month-1];
+	    return R[months-1];
 	}
 }
