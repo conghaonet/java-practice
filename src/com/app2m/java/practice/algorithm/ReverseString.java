@@ -2,6 +2,7 @@ package com.app2m.java.practice.algorithm;
 
 /**
  * 字符串的反转及替换
+ * 本例使用递归实现字符串反转
  */
 public class ReverseString {
     public static void main(String args[]) {
