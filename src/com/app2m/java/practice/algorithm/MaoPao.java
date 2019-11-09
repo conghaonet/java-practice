@@ -7,12 +7,10 @@ package com.app2m.java.practice.algorithm;
  */
 public class MaoPao {
 	public static void main(String[] args) {
-		int array[] = {-7, 4, 2, 9, -1, 7, 6, 0, 5, 3};
+		int array[] = {-3, 4, 2, 9, -9, 7, -7, 0, 5, 3};
+		printArray("Original", array);
 		sortSmall2Big(array);
-		System.out.print("Result: ");
-		for(int i:array) {
-			System.out.print(i+",");
-		}
+		printArray("Result", array);
 	}
 	
 	/**
@@ -27,8 +25,17 @@ public class MaoPao {
 					array[i] = array[j];
 					array[j] = temp;
 				}
+				printArray("sort i="+i + " j="+j, array);
 			}
+			printArray("sort i="+i, array);
 		}
 	}
 
+	static void printArray(String prefix, int[] array) {
+		System.out.print(prefix + ": [");
+		for(int i:array) {
+			System.out.print(i+", ");
+		}
+		System.out.println("]");
+	}
 }
