@@ -9,7 +9,7 @@ package com.app2m.java.practice.algorithm;
  */
 public class TanQiuLuoDi {
 	public static void main(String[] args) {
-		int times = 20;
+		int times = 10;
 		long time = System.currentTimeMillis();		
 		System.out.println(count(times));
 		System.out.println("递归方式耗时：" + (float)(System.currentTimeMillis()-time)/1000+" 秒");
