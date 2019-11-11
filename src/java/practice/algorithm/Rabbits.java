@@ -1,4 +1,4 @@
-package java.practice.algorithm.algorithm;
+package java.practice.algorithm;
 
 /**
  * 已知一对兔子每一个月可以生一对小兔子， 而一对兔子出生后第三个月开始生小兔子。

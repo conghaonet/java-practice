@@ -1,4 +1,4 @@
-package java.practice.algorithm.algorithm;
+package java.practice.algorithm;
 
 /**
  * 求最大公约数（greatest common divisor），最小公倍数（least common multiple）

@@ -1,4 +1,4 @@
-package java.practice.algorithm.algorithm;
+package java.practice.algorithm;
 
 /**
  * 选择排序

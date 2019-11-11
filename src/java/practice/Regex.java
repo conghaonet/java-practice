@@ -1,4 +1,4 @@
-package java.practice.algorithm;
+package java.practice;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

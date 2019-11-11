@@ -1,4 +1,4 @@
-package java.practice.algorithm;
+package java.practice;
 
 
 import com.sun.istack.internal.NotNull;
