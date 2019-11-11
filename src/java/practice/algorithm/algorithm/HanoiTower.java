@@ -1,4 +1,4 @@
-package com.app2m.java.practice.algorithm;
+package java.practice.algorithm.algorithm;
 
 /**
  * 汉诺塔问题(递归) 

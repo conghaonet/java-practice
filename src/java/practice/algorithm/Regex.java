@@ -1,4 +1,4 @@
-package com.app2m.java.practice;
+package java.practice.algorithm;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

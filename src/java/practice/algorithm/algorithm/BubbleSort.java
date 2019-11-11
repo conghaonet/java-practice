@@ -1,4 +1,4 @@
-package com.app2m.java.practice.algorithm;
+package java.practice.algorithm.algorithm;
 
 /**
  * 冒泡法排序

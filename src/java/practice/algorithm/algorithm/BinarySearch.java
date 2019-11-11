@@ -1,4 +1,4 @@
-package com.app2m.java.practice.algorithm;
+package java.practice.algorithm.algorithm;
 
 /**
  * 二分法查找（折半查找）

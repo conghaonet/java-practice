@@ -1,4 +1,4 @@
-package com.app2m.java.practice.algorithm;
+package java.practice.algorithm.algorithm;
 
 import java.util.LinkedList;
 import java.util.List;

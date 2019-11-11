@@ -1,4 +1,4 @@
-package com.app2m.java.practice.singleton;
+package java.practice.algorithm.singleton;
 
 /**
  * 使用 enum 实现单例模式

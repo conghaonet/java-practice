@@ -1,4 +1,4 @@
-package com.app2m.java.practice.algorithm;
+package java.practice.algorithm.algorithm;
 
 /**
  * 一球从100米高度自由落下，每次落地后反跳回原高度的一半再落下。
