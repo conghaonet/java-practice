@@ -22,7 +22,7 @@
 * [猴子吃桃子问题](/src/java/practice/algorithm/MonkeyEatPeach.java)
 
 ## 算法复杂度
-* 排序算法复杂度（[log对数公式说明](/算法复杂度说明.md)）
+* 排序算法复杂度（[log对数公式说明](/log对数公式说明.md)）
 <img src="https://i.ibb.co/SVWJCPy/image.png" alt="排序算法复杂度" border="0">
   
 * 查找算法时间复杂度
