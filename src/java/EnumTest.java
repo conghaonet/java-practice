@@ -1,5 +1,3 @@
-package java.practice;
-
 public enum EnumTest {
 	FATHER("Frank", 36, 'M'), MOTHER("Mary", 34, 'W'), SON("Tony", 5, 'M');
 

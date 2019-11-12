@@ -1,4 +1,4 @@
-package java.practice.algorithm;
+package algorithm;
 
 /**
  * 字符串的反转及替换

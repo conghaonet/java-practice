@@ -1,4 +1,4 @@
-package java.practice.algorithm;
+package algorithm;
 
 /**
  * 冒泡法排序

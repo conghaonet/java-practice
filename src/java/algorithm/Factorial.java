@@ -1,4 +1,4 @@
-package java.practice.algorithm;
+package algorithm;
 
 /**
  * 阶乘算法
