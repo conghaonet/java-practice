@@ -37,10 +37,13 @@ public class BubbleSort {
 	}
 
 	static void printArray(String prefix, int[] array) {
-		System.out.print(prefix + ": [");
-		for(int i:array) {
-			System.out.print(i+", ");
+		if (prefix != null && !prefix.isEmpty()) System.out.print(prefix + ": ");
+		System.out.print("[");
+		for(int index=0; index<array.length; index++) {
+			if (index > 0) System.out.print(", ");
+			System.out.print(array[index]);
 		}
 		System.out.println("]");
 	}
+
 }
