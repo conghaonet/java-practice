@@ -1,5 +1,3 @@
-import com.sun.istack.internal.NotNull;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,10 +13,9 @@ import java.util.Set;
 public class EqualsAndHashCode {
 	private int id;
 	
-	@NotNull
 	private String name;
 
-	public EqualsAndHashCode(int id, @NotNull String name) {
+	public EqualsAndHashCode(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
