@@ -1,12 +1,10 @@
 public enum EnumTest {
 	FATHER("Frank", 36, 'M'), MOTHER("Mary", 34, 'W'), SON("Tony", 5, 'M');
 
-	private String name;
 	private int age;
 	private char gender;
 
 	EnumTest(String name, int age, char gender) {
-		this.name = name;
 		this.age = age;
 		this.gender = gender;
 	}
