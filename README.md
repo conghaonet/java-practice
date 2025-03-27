@@ -1,6 +1,7 @@
 # java-practice
 ## 算法
-[Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
+* [算法可视化工具](https://github.com/algorithm-visualizer/algorithm-visualizer)
+* [双向链表 DoublyLinkedList](/src/java/algorithm/DoublyLinkedList.java)
 * [冒泡排序 BubbleSort](/src/java/algorithm/BubbleSort.java)
 * [选择排序 SelectionSort](/src/java/algorithm/SelectionSort.java)
 * [插入排序 InsertionSort](/src/java/algorithm/InsertionSort.java)
